@@ -7,6 +7,7 @@
 1. npx create-expo-app@3 nomedoprojeto -> Cria um app react native com o nome desejado na versão 3.
 2. npm start -> Prepara/roda o servidor para ser executado.
 3. npm run reset-project -> Reseta o projeto para uma versão mais limpa.
+4. npm i ou npm install -> Instala todas as bibliotecas necessárias do node.
 
 # CASES
 snake_case -> nome_do_projeto
@@ -18,4 +19,15 @@ kebab-case -> nome-do-projeto
 arquivo -> ``snake_case``, mas pode ser cammelCase.
 componente -> ``PascalCase``.
 função -> ``cammelCase``.
+
+## Estrutura do projeto vollmed
+🗂️app
+- 📂components
+-- 📕LabeledInput.jsx
+- 📂services
+- 📂screens
+-- 📗LoginScreen.jsx
+-- 📘RegisterScreen.jsx
+
+
 

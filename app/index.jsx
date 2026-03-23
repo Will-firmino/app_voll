@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, StyleSheet, Text } from "react-native";
 
 // Constantes das cores para estilização
 const TEXT_PRIMARY = "#6B6E71";
@@ -7,11 +7,18 @@ const COLOR_DETAIL = "#339CFF";
 // Componente Funcional (Como se fosse o HTML)
 export default function Index() {
   return (
-    <View style={styles.bg}>
+    <SafeAreaView style={styles.bg}>
       <Text style={styles.texto}>
         Olá Mundo
       </Text>
-    </View>
+    </SafeAreaView>
+
+
+    // <View style={styles.bg}>
+    //   <Text style={styles.texto}>
+    //     Olá Mundo
+    //   </Text>
+    // </View>
   )
 }
 // Criação do stylesheet (como se fosse o css)
