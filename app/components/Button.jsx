@@ -1,8 +1,10 @@
-import { Pressable, StyleSheet, Text } from "react-native";
+import { Pressable, StyleSheet, Text } from "react-native"; 
 
-const BG_BUTTON = "#00213D";
+// Declaração das constantes para estilização
+const BG_BUTTON = "#00213D"; 
 const TEXT_PRIMARY = "#FFFFFF"
 
+// Exportação do componente de reuso
 export default function Button() {
     return (
         <Pressable>

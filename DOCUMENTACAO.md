@@ -1,7 +1,8 @@
 # Componentes do react-native
 <Text></Text> -> Como se fosse o p do HTML, Guarda texto.
 <View></View> -> Como se fosse a div do HTML. Guarda bloco.
-
+<Pressable></Pressable> -> Envolve algum elemento a ser pressionado.
+StyleSheet -> Cria uma folha de estilo para estilização.
 
 # Comandos do REACT NATIVE
 1. npx create-expo-app@3 nomedoprojeto -> Cria um app react native com o nome desejado na versão 3.
