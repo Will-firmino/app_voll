@@ -30,5 +30,8 @@ função -> ``cammelCase``.
 -- 📗LoginScreen.jsx
 -- 📘RegisterScreen.jsx
 
-
+## OBS:
+1. Em react native, as propriedades também são conhecidas como props. `UMA BOA PRÁTICA.`
+2. Quando você for criar a estilização através do StyleSheet, a constante deverá estar no padrão cammelCase. `UMA BOA PRÁTICA.`
+3. Na customização do styles, será necessário deixar uma virgula após cada seletor e após cada propriedade dentro do seletor. `UMA BOA PRÁTICA.` 
 
