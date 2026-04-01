@@ -35,3 +35,14 @@ função -> ``cammelCase``.
 2. Quando você for criar a estilização através do StyleSheet, a constante deverá estar no padrão cammelCase. `UMA BOA PRÁTICA.`
 3. Na customização do styles, será necessário deixar uma virgula após cada seletor e após cada propriedade dentro do seletor. `UMA BOA PRÁTICA.` 
 
+## Components primitivos
+<SafeAreaView> -> é um componente que garante que o conteúdo seja exibido dento das áreas seguras da tela, evitando sobreposição com elemento do sistema como a barra de status.
+<ScrollView> -> é um componente que permite a rolagem do conteúdo quando ele excede o espaço disponível na tela, garatindo que todos os campos do formulário sejam acessíveis mesmo em dispositivos menores.
+
+## Props primitivas
+keyboardType = "email-adress" -> é uma prop do TextInput que otimiza o teclado
+para entrada de email, exibindo caracteres como "@" e "." de forma mais acessível.
+
+securityTextEntry={true} -> é uma prop que oculta o texto digitado, ideal para campo de senha.
+
+

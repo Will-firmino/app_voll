@@ -1,12 +1,23 @@
-import { View, Text, TextInput } from "react-native";
+import { ScrollView, View } from "react-native";
 import LabeledInput from "../components/LabeledInput";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function LoginScreen() {
     return(
-        <View>
-            <LabeledInput label={Nome} />
-            <LabeledInput label={Email}/>
-            <LabeledInput label={Senha}/>
-        </View>
+        <SafeAreaView>
+            <ScrollView>
+            <LabeledInput 
+                label="Email" 
+                placeholder="Insira seu endereço de email"
+                keyboardType="email-adress"
+            />
+            <LabeledInput 
+                label="Senha" 
+                placeholder="Insira sua senha"
+                secureTextEntry={true}
+            />
+            </ScrollView>
+        </SafeAreaView>
     )
 }
+

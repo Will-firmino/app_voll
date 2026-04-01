@@ -17,6 +17,7 @@ export default function LabeledInput({ label, ...rest }) {
             <TextInput 
                 style={styles.input}
                 placeholderTextColor='#B5B5B5'
+                {...rest}
             />
         </View>
     )
