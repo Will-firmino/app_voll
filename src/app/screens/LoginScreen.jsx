@@ -30,7 +30,7 @@ export default function LoginScreen() {
         <View style={styles.footer}>
           <Text style={styles.footerText}>Ainda não tem conta?</Text>
           <TouchableOpacity> 
-            <Text style={styles.footerLink}>Faça seu cadastro!</Text>
+            <Text style={styles.footerLink}> Faça seu cadastro!</Text>
           </TouchableOpacity>
         </View>
 
@@ -45,8 +45,13 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: "700", // Define o peso da fonte como negrito forte
     textAlign: "center",
-    color: "#333",
+    color: "#6B6E71",
     marginBottom: 26,
+  },
+  form:{
+    width: "100%",
+    marginTop: 16,
+    paddingHorizontal: 20
   },
   forgetText: {
     color: "#00213D",
@@ -59,7 +64,7 @@ const styles = StyleSheet.create({
     alignSelf: "center", // Centraliza o botão dentro do container "view"
   },
   footer: {
-    marginTop: 24,
+    marginTop: 30,
     flexDirection:"row",
     justifyContent: "center",
     alignItems: "center",
