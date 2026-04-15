@@ -8,7 +8,7 @@ const TEXT_PRIMARY = "#FFFFFF"
 export default function ButtonForm({ textButton}) {
     return (
         <Pressable style={styles.button}>
-            <Text>
+            <Text style={styles.title}>
                 { textButton ? textButton : "Não informado"}
                 
             </Text>
@@ -20,9 +20,17 @@ export default function ButtonForm({ textButton}) {
 const styles = StyleSheet.create({
     button: {
         backgroundColor: BG_BUTTON,
+        borderRadius: 8,
+        marginHorizontal: 20
+
     },
     title: {
         color: TEXT_PRIMARY,
+        marginVertical: 2,
+        textAlign: "center",
+        paddingVertical: 7,
+
+      
     }
 
 })
