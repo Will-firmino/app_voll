@@ -8,8 +8,8 @@ const Stack = createNativeStackNavigator();
 
 export default function StackRoutes() {
     return(
-        <Stack.Navigator>
-            <Stack.Screen name="login" component={LoginScreen}/>
+        <Stack.Navigator initialRouteName="login">
+            <Stack.Screen name="login" component={LoginScreen} />
             <Stack.Screen name="registerall" component={RegisterAll}/>
             <Stack.Screen name="register" component={RegisterScreen}/>
         </Stack.Navigator>
