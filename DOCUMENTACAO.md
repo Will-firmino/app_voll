@@ -52,3 +52,9 @@ securityTextEntry={true} -> é uma prop que oculta o texto digitado, ideal para 
 3. Instalar as dependências de ajustes: `npx expo install react-native-screens react-native-safe-area-context`
 4. Instalar a dependência para utilizar a forma stack native (pilha nativa) no projeto: `npm install @react-navigation/native-stack`
 
+
+---
+
+
+
+
