@@ -1,9 +1,11 @@
+import { useNavigation } from "@react-navigation/native";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import ButtonForm from "../components/ButtonForm";
 import LabeledInput from "../components/LabeledInput";
 
 export default function RegisterScreen(){
+    const navigation = useNavigation();
     return (
         <SafeAreaView style={styles.SafeArea}>
             <ScrollView>

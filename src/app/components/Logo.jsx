@@ -11,7 +11,7 @@ export default function Logo({ size = 28 }) {       // size padrão: 28px
       <Svg width={iconSize} height={iconSize} viewBox="0 0 48 48">
         
 
-        
+        ""
         <Path
           d="M24 4 L26 22 L44 24 L26 26 L24 44 L22 26 L4 24 L22 22 Z"
           // M24 4  → Começa no topo | L44 24 → ponta direita | L4 24 → ponta esquerda
