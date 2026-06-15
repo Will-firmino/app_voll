@@ -55,6 +55,4 @@ securityTextEntry={true} -> é uma prop que oculta o texto digitado, ideal para 
 
 ---
 
-
-
-
+teste
