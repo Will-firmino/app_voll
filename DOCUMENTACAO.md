@@ -53,6 +53,15 @@ securityTextEntry={true} -> é uma prop que oculta o texto digitado, ideal para 
 4. Instalar a dependência para utilizar a forma stack native (pilha nativa) no projeto: `npm install @react-navigation/native-stack`
 
 
----
+# CONSUMINDO DADOS DE UMA API VIA REACT NATIVE
+-- 🗂️ context
+    - 📘authContext.jsx
 
-teste
+--📺 services
+    -📕api.js
+    -📗authService.js
+
+
+📘authContext.jsx -> É onde fica planejado as requisições e o tratamento das respostas. 
+📕api.js -> É onde fica localizada toda a implantação de consumir a API e suas configurações.
+📗authService.js -> É onde fica organizada e validada todas as autenticações e autorizações. (Rotas públicas e Rotas privadas).
