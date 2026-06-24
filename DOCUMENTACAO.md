@@ -60,8 +60,12 @@ securityTextEntry={true} -> é uma prop que oculta o texto digitado, ideal para 
 --📺 services
     -📕api.js
     -📗authService.js
+    -📘pacienteService.js
+    -📙medicoService.js
+    -📔consultaService.js
 
 
 📘authContext.jsx -> É onde fica planejado as requisições e o tratamento das respostas. 
 📕api.js -> É onde fica localizada toda a implantação de consumir a API e suas configurações.
 📗authService.js -> É onde fica organizada e validada todas as autenticações e autorizações. (Rotas públicas e Rotas privadas).
+📘pacienteService.js, 📙medicoService.js, 📔consultaService.js ->É onde fica organizada o acesso aos endpoints(path, caminho,url) da API.

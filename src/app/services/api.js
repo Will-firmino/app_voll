@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Instância do axios
-const api = axios.create({
+export const api = axios.create({
   baseURL: 'http://localhost:8080', // Endereco central da API
   timeout: 8000, // Tempo máximo de espera da resposta
   headers: { 'Content-Type': 'aplication/json' }, // cabecalhos que são comuns em todas as requisições rn;
@@ -25,7 +25,16 @@ api.interceptors.response.use(
   }
 );
 
-export default api;
+// Constante responsável por montas os métodos disponíveis na API
+export const api_metodos = {
+  get: (path) => request('GET', path),
+  post: (path, body) => request('POST', path, body),
+  put: (path, body) => request('PUT', path, body),
+  delete: (path) => request('DELETE', path),
+}
+
+
+
 
 
 
